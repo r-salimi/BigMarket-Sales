@@ -36,5 +36,5 @@ Models were evaluated using:
 | **Linear Regression**         | **792.68** | **1070.74** | **0.5782** |
 | Ridge Regression (`alpha=10`) |     792.81 |     1070.99 |     0.5780 |
 
-Linear Regression achieved slightly better performance than the tuned Ridge Regression model across all three evaluation metrics. Therefore, Linear Regression was selected as the final model.
+Linear Regression achieved slightly better performance than the tuned Ridge Regression model across two evaluation metrics. Therefore, Linear Regression was selected as the final model.
 
