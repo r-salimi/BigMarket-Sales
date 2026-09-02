@@ -1,4 +1,4 @@
-# Big Mart Sales Prediction
+# Big Mart Sales
 
 ## Project Overview
 Predicting item outlet sales using machine learning regression models.
@@ -29,4 +29,4 @@ Models were evaluated using:
 - R²
 
 ## Conclusion
-...
+Linear Regression was selected as the final model because it achieved the best overall test-set performance based on RMSE and R².:
