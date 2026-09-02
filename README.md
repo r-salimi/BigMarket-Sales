@@ -29,4 +29,12 @@ Models were evaluated using:
 - R²
 
 ## Conclusion
-Linear Regression was selected as the final model because it achieved the best overall test-set performance based on RMSE and R².:
+### Final Model Comparison
+
+| Model                         |        MAE |        RMSE |         R² |
+| ----------------------------- | ---------: | ----------: | ---------: |
+| **Linear Regression**         | **792.68** | **1070.74** | **0.5782** |
+| Ridge Regression (`alpha=10`) |     792.81 |     1070.99 |     0.5780 |
+
+Linear Regression achieved slightly better performance than the tuned Ridge Regression model across all three evaluation metrics. Therefore, Linear Regression was selected as the final model.
+
